@@ -10,12 +10,12 @@ int main(){
  sm=a[1];
  sm_1=a[1];
 
- for(i=1;i<10;i++){
+ for(i=0;i<10;i++){
     if(sm>a[i])
         sm=a[i];
  }
 
- for(i=1;i<10;i++){
+ for(i=0;i<10;i++){
     if((sm_1>a[i]) && (sm!=a[i]))
             sm_1=a[i];
  }
